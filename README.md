@@ -1,2 +1,0 @@
-# ghom
-Meu primeiro pacote
