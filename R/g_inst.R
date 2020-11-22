@@ -7,11 +7,3 @@ pkg <-function(pkg) {
   
   lapply(pkg, library, character = TRUE)
 }
-
-
-pacote <- c("beepr", "magrittr", "labeling")
-
-pkg(pacote)
-pkg("lubridate")
-
-remotes::install_github("gustavohom/ghom")
