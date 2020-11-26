@@ -14,10 +14,20 @@
 #' @author Mourao
 #'
 #' @examples
+#' # Carregar um pacote
+#' 
 #' m_load("beepr")
+#' 
+#' # Vetor contento varios pacotes 
 #' 
 #' pkg <- c("beepr", "magrittr")
 #' m_load(pkg)
+#' 
+#' # Ocultar mensagens desnecessarias 
+#' 
+#' pkg <- c("beepr", "magrittr")
+#' invisible(m_load(pkg))
+#' 
 #' @export
 #' 
 m_load <-function(pkg) {
