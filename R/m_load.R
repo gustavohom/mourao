@@ -16,17 +16,17 @@
 #' @examples
 #' # Carregar um pacote
 #' 
-#' m_load("beepr")
+#'  m_load("beepr")
 #' 
 #' # Vetor contento varios pacotes 
 #' 
-#' pkg <- c("beepr", "magrittr")
-#' m_load(pkg)
+#'  pkg <- c("beepr", "magrittr")
+#'  m_load(pkg)
 #' 
 #' # Ocultar mensagens desnecessarias 
 #' 
-#' pkg <- c("beepr", "magrittr")
-#' invisible(m_load(pkg))
+#'  pkg <- c("beepr", "magrittr")
+#'  invisible(m_load(pkg))
 #' 
 #' @export
 #' 
